@@ -1,0 +1,29 @@
+h2 {
+    color: olive;
+}
+
+body {
+    background-color: ivory;
+}
+
+img {
+    border: lightcoral double;
+
+}
+
+p {
+color: blue;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+
+#paragraf {
+color: magenta
+}
+
+a {
+    color: red;
+}
+a:hover {
+    color: green;
+}

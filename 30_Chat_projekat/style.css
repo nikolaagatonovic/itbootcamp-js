@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color: black;
+    background-color: wheat;
+    max-width: 836px;
+    margin: auto;
+}
+
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: darkcyan;
+    border: 0;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.active {
+    background-color:rgb(0, 87, 87);
+}
+
+.btn:hover {
+    background-color:rgb(2, 173, 173);
+    cursor: pointer;
+}
+
+/* .btn:focus {
+    background-color:rgb(0, 87, 87);
+} */
+
+input {
+    height: 30px;
+    width: 595px;
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
+
+textarea {
+    height: 30px;
+    border-radius: 5px;
+}
+
+textarea::placeholder {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+ul {
+    max-height: 350px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 3px 3px 3px 10px;
+    text-align: left;
+    background-color: beige;
+    border: 1px solid rgb(241, 195, 107);
+    border-radius: 0px 15px 15px 15px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+
+.sent {
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 3px 3px 3px 10px;
+    text-align: left;
+    background-color: rgb(208, 231, 197);
+    border: 1px solid rgb(152, 226, 117);
+    border-radius: 15px 0px 15px 15px;
+    margin: 8px;
+    display: flex;
+    align-self: flex-end
+}
+
+.datePoruka {
+    font-size: 0.7em;
+    color: grey;
+}
+
+.username {
+    font-weight: bold;
+    
+}
+
+.message {
+    font-size: 0.9em;
+}
+
+.hidden {
+    display:inline;
+    align-self: flex-end;
+}
+
+#inputMessage {
+    width: 592px;
+    /* margin-top: 25px; */
+    overflow: auto;
+}
+
+#inputUsername {
+    width: 592px;
+}
+
+.trash {
+    margin-left: auto;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#colorPick {
+    width: 593px;
+    height: 40px;
+}

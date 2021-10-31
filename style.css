@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: lavender;
+}
+
+img {
+    border: 13px double cornflowerblue;
+}
+
+.prg {
+    color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+p a {
+    color: red;
+}
+
+p a:visited {
+    color: chartreuse;
+}

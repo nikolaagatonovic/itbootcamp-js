@@ -1,0 +1,21 @@
+
+body {
+    background-color: lightgrey;
+}
+
+span {
+    display: inline-block;
+    border: 1px solid black;
+    outline: 10px solid white;
+    width: 320px;
+    padding: 15px 10px 0px;
+    margin: 5px;
+}
+
+.prvi {
+    background-color: bisque;
+}
+
+.drugi {
+    background-color: grey;
+}

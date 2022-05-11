@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Login details</legend>
+            <label>Name:</label>
+            <input type="text">
+            <br>
+            <label>Email:</label>
+            <input type="email">
+            <br>
+            <label>Password:</label>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend>Your feedback</legend>
+            <p>Please check all the emotions that apply to you:</p>
+            <br>
+            <br>
+            <label>Angry</label>
+            <input type="checkbox" name="mood" value="angry">
+            <br>
+            <label>Sad</label>
+            <input type="checkbox" name="mood" value="sad">
+            <br>
+            <label>Happy</label>
+            <input type="checkbox" name="mood" value="happy" checked>
+            <br>
+            <label>Ambivalent</label>
+            <input type="checkbox" name="mood" value="ambivalent">
+            <br>
+            <p>How satisfied were you with our service?</p>
+            <br>
+            <br>
+            <label>Very satisfied</label>
+            <input type="radio" name="satisfaction" value="vs">
+            <br>
+            <label>Satisfied</label>
+            <input type="radio" name="satisfaction" value="s">
+            <br>
+            <label>Didnt care</label>
+            <input type="radio" name="satisfaction" value="dc">
+            <br>
+            <label>Dissatisfied</label>
+            <input type="radio" name="satisfaction" value="d">
+            <br>
+            <label>Very dissatisfied</label>
+            <input type="radio" name="satisfaction" value="vd">
+            <br>
+            <p>Further comments</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <label>Bio photo:</label>
+        <input type="file" size="50" value="Choose file..." placeholder="No file chosen">
+        <br>
+        <label>Location visited:</label>
+        <select name="location" id="location">
+            <option value="">Novi Sad</option>
+            <option value="">Subotica</option>
+            <option value="">Šid</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+}
+
+nav {
+    border-bottom: 1px solid white;
+    height: 65px;
+    width: 700px;
+    margin: auto;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding:15px;
+}
+
+.levo {
+    float: left;
+    padding-left: 0;
+}
+
+.desno {
+    float: right;
+    padding-right: 0;
+}
+
+.prvi {
+    background-image: url("grad.png");
+    background-size: 100%;
+    height: 500px;
+}
+
+.prvi h1 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-weight: lighter;
+}
+
+.prvi button {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(68, 190, 143);
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border-color: rgb(68, 190, 143);
+    font-size: 0.7rem;
+}
+
+.prvi button:hover {
+    background-color: rgba(51, 48, 48, 0.3);
+}
+
+.prvi button:active {
+    border-color: rgb(52, 145, 109);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.drugi img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: grayscale();
+}
+
+.drugi {
+    width: 700px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.div1 {
+    width: 250px;
+    float: left;
+    text-align: center;
+    margin: 30px 100px 30px auto;
+}
+
+.div2 {
+    width: 250px;
+    float: left;
+    text-align: center;
+    margin: 30px auto 30px 100px;
+}
+
+p {
+    margin: 20px 0px 10px 0px;
+}
+.drugi button {
+    margin: 20px;
+    color: rgb(68, 190, 143);
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 2px solid rgb(68, 190, 143);
+    font-size: 0.7rem;
+}
+
+.drugi button:hover {
+    background-color: rgba(168, 159, 159, 0.3);
+}
+
+.drugi button:active {
+    border-color: rgb(52, 145, 109);
+}
+
+.treci {
+    background-color: rgb(68, 190, 143);
+    color: white;
+}
+
+fieldset {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    border: none;
+}
+fieldset h3 {
+    margin: 30px;
+}
+
+input, textarea {
+    background-color: rgb(68, 190, 143);
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+label {
+    margin: 10px 10px 10px 50px;
+    float: left;
+}
+input {
+    width: 300px;
+    margin: 10px 10px 10px 50px;
+}
+
+textarea {
+    width: 700px;
+    margin: 30px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    font-size: 0.7rem;
+}
+
+fieldset div {
+    float: left;
+}
+
+.treci button {
+    margin: 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 0.7rem;
+}
+
+.treci button:hover {
+    background-color: rgb(95, 219, 172);
+}
+
+.treci button:active {
+    border-color: rgb(199, 196, 196);
+    background-color: rgb(42, 158, 114);
+}
+
+span {
+    font-size: 0.6rem;
+}

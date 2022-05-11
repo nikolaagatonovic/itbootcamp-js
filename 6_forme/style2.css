@@ -1,0 +1,25 @@
+label, input {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+p {
+    display: inline;
+    margin-right: 20px;
+}
+
+form {
+    width: 600px;
+}
+
+input[type=submit], [type=reset] {
+    margin-left: 90px;
+}
+
+select {
+    background-color: transparent;
+}

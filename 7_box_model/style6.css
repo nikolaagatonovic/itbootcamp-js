@@ -1,0 +1,24 @@
+header, nav, footer {
+    height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+article, aside {
+    height: 400px;
+    text-align: center;
+    font-size: 3rem;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+section {
+    height: 300px;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+}

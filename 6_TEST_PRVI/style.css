@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+}
+
+td {
+    width: 200px;
+    padding: 0px 10px;
+    font-size: 0.7em;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 15px;
+    padding: 10px 20px;
+}
+
+div a:hover {
+    background-color: orange;
+}
+
+td img {
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+span {
+    color: orange;
+}
+
+.qa {
+    color: green;
+}
+
+ul li {
+    color: black;
+}
+
+.okvir {
+    border: 3px solid orange;
+}
+
+h4 {
+    display: inline;
+    color: orange;
+    font-size: 1.1em;
+}
+
+p a:visited {
+    color: red;
+}
+
+.centar {
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    font-weight: 900;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+}
+
+form {
+    width: 600px;
+}

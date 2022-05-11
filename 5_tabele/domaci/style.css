@@ -1,0 +1,39 @@
+
+th {
+    font-size: 2em;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.table1 {
+    max-width: 800px;
+    margin: auto;
+}
+.table1 img {
+    width: 180px;
+    height: 250px;
+}
+
+.table2 {
+    max-width: 600px;
+    margin-left: 345px;
+}
+
+.table2 img {
+    width: 70px;
+    height: 100px;
+}
+
+.th1 {
+    font-size: 1.5em;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lorem {
+    padding-bottom: 10px;
+}

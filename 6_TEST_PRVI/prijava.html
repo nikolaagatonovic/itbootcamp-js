@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prijava</title>
+</head>
+<body>
+    <a href="http://127.0.0.1:5500/pocetna.html">Nazad na pocetnu</a>
+    <br>
+    <br>
+    <form action="">
+        <fieldset>
+            <legend>Informacije o kandidatu</legend>
+            <label for="ime">Ime:</label><br>
+            <input type="text"><br>
+            <label for="prezime">Prezime:</label><br>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Informacije o kursu</legend>
+            <label for="mesto">Mesto:</label><br>
+            <select name="mesto" id="">
+                <option value="mesto">Nis</option>
+                <option value="mesto">Beograd</option>
+            </select>
+            <br>
+            <label for="kurs">Kurs</label>
+            <input type="radio" name="kurs">Javascript
+            <input type="radio" name="kurs">QA
+        </fieldset>
+        <input type="checkbox" checked>Zelim da se prijavim na newsletter <br>
+        <input type="submit" value="Prijavi se">
+    </form>
+</body>
+</html>

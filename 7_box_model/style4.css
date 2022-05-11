@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: sandybrown;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    border: 2px solid green;
+    margin: 0 -2px 0 -2px;
+    text-align: center;
+    width: 25%;
+    padding: 10px 0px;
+    background-color: rgb(102, 163, 182);
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: red;
+}
+
+.submenu {
+    position: relative;
+    background-color: rgb(102, 163, 182);
+    display: none;
+    top: 10px;
+}
+
+.submenu a {
+    padding: 10px 0px;
+}
+
+.submenu a:hover {
+    background-color: rgb(207, 0, 0);
+}
+.dropdown:hover .submenu {
+    display: block;
+}
+
+header {
+    background: url("vecera.png") no-repeat bottom;
+    background-size: 100%;
+    height: 432px;
+}

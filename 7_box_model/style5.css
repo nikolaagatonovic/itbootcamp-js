@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header a {
+    background-color: rgb(60, 25, 92);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    float: left;
+}
+
+.logo {
+    float: left;
+    padding: 10px 60px 10px 5px;
+}
+
+.user {
+    float: right;
+    padding: 10px 10px 10px 5px;
+}
+
+.registruj {
+    padding-left: 150px;
+    margin-left: 4px;
+}
+
+nav a {
+    background-color: rgb(30, 34, 46);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    float: left;
+    padding: 10px 40px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0px -1px 0px -1px;
+}

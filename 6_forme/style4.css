@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+
+fieldset {
+    border: 3px solid purple;
+    height: 370px;
+}
+
+
+#naslov {
+    font-size: 2em;
+    font-weight: bold;
+    color: purple;
+}
+
+.umotaj {
+    margin: 15px;
+}
+
+.prijava {
+    font-size: 1.4em;
+    color: slategray;
+}
+
+input {
+    margin: 10px 0;
+    width: 365px;
+    height: 50px;
+    padding: 0px 10px 0px
+}
+
+a {
+    color: purple;
+    font-size: 1.3em;
+}
+
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    width: 125px;
+    font-size: 1.4em;
+}
+
+label[for=prijava] {
+    display: inline-block;
+    margin: 20px 0px 15px
+}

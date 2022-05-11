@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    border: 2px solid black;
+}
+
+span {
+    color: red;
+}
+
+img {
+    box-sizing: border-box;
+    max-width: 190px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px red dotted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    height: 300px;
+    margin: 0px 10px;
+    overflow: auto;
+}

@@ -1,0 +1,30 @@
+table, td, th{
+    border: 2px solid navy;
+    border-collapse: collapse;
+    padding: 6px 2px;
+    width: 800px;
+}
+
+th {
+    text-align: left;
+}
+
+.prvaT tr:nth-child(3) {
+    background-color: yellow;
+}
+
+.drugaT td:nth-child(3), .drugaT th:nth-child(3) {
+    background-color: yellow;
+}
+
+.prvaT tr:nth-child(odd) {
+    font-style: italic;
+}
+
+#drugaT tr:nth-child(even):hover {
+    background-color: yellowgreen;
+}
+
+#drugaT tr:nth-child(3n) {
+    background-color: plum;
+}

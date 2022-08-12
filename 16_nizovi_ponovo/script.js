@@ -324,7 +324,53 @@ let prepletiNizove = (nizA, nizB) => {
 }
 console.log(prepletiNizove(["loptica", "bazen", "tobogan", "digitron", "alpaka"], ["bulls", "celtics", "hornets", "pacers", "lakers"]));
 
+//ILI
+
+let prepletiNizove2 = (nizA, nizB) => {
+    let n = nizA.length; //let n = nizB.length;
+    let nizC = [];
+    for(let i = 0; i < n; i++) {
+        nizC.push(nizA[i]);
+        nizC.push(nizB[i]);
+    }
+    return nizC;
+}
+
+let nizA = [1, 2, 3, 4, 5];
+let nizB = [-1, -2, -3, -4, -5];
+let nizC = prepletiNizove2(nizA, nizB)
+console.log(nizC);
+
+//ILI
+
+let prepletiNizove3 = (nizA, nizB) => {
+    let n = nizA.length;
+    let nizC = [];
+    let j = 0;
+    for(let i = 0; i < n; i++) {
+        nizC[j] = nizA[i]; //ili nizC[j++] = a[i]
+        j++;
+        nizC[j] = nizB[i] //ili nizC[j++] = b[i] 
+        j++;
+    }
+    return nizC;
+} 
+nizC = prepletiNizove3(nizA, nizB);
+console.log(nizC);
+
+//
+
 //25.
+let pomnoziNizove2 = (nizA, nizB) => {
+    let nizC = [];
+    for(let i = 0; i < nizA.length; i++) {
+        nizC[i] = nizA[i] * nizB[i]
+    }
+    return nizC
+}
+console.log(pomnoziNizove2([1, 2, 3, 4, 5], [6, 7, 8, 9, 10]));
+
+//ILI
 let pomnoziNizove = (nizA, nizB) => {
     return nizA.map((_a, index) => nizA[index] * nizB[index]) //a je vrednost, index je index
 }
@@ -332,9 +378,32 @@ console.log(pomnoziNizove([1, 2, 3, 4, 5], [6, 7, 8, 9, 10]));
 // ako se neki parametar ne koristi stavi se crta
 
 //26
+let formirajNiz = nizA => {
+    let nizB = [];
+    for (let i = 0; i < nizA.length; i++) {
+        nizB[i] = (nizA[i] + nizA[nizA.length - 1 - i]) / 2;
+    }
+    return nizB 
+}
+console.log(formirajNiz([1, 2, 34, 23, 4, 20]));
+
+//ILI 
 let nekaFormula = niz => {
     return niz
     .filter((_b, index) => index < (niz.length / 2))
     .map((x, index) => (x + niz[niz.length - 1 - index]) / 2 )
 }
 console.log(nekaFormula([1, 2, 34, 23, 4, 20]));
+
+//
+
+
+//
+// let prepletiNizove = (nizA, nizB) => {
+//     let nizC = [];
+//     for(let i = 0; i < nizA.length; i++) {
+//         nizC[i * 2] = nizA[i];
+//         nizC[i * 2 + 1] = nizB[i]
+//     }
+//     return nizC
+// }

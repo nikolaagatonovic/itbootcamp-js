@@ -1,0 +1,22 @@
+[
+    {
+        "name": "strawberries",
+        "number": "5",
+        "weight": 3
+    },
+    {
+        "name": "raspberries",
+        "number": "7",
+        "weight": 2
+    },
+    {
+        "name": "bananas",
+        "number": "7",
+        "weight": 4
+    },
+    {
+        "name": "pears",
+        "number": "7",
+        "weight": 5
+    }
+]

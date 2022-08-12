@@ -67,8 +67,8 @@ let maks2 = (n, m) => {
     if (n > m) {
         return n;
     } else {
-        return m
-    }
+        return m`
+            }`
 }
 console.log(maks2(2, 6));
 

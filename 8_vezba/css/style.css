@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(197, 197, 189);
+    max-width:  500px;
+}
+img {
+    width: 230px;
+    
+}
+
+.wrapper div {
+    float: left;
+    width: 230px;
+    border: 1px solid red;
+    padding: 0 10px;
+    
+}

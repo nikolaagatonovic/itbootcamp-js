@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Chat Room</title>
+</head>
+<body>
+    <header>
+        <h1>ITBootcamp Chat</h1>
+        <h2>Choose a chatroom</h2>
+    </header>
+        <nav>
+            <button id="general" class="btn room trash active">#general</button>
+            <button id="js" class="btn trash room">#js</button>
+            <button id="homeworks" class="btn trash room">#homeworks</button>
+            <button id="tests" class="btn trash room">#tests</button>
+        </nav>
+
+    <section>
+        <ul class="chats" style="display: flex; flex-direction: column;">
+            <!-- //Prostor za poruke -->
+        </ul>
+    </section>
+    <form id="formColor">
+        <input type="color" id="colorPick">
+        <input type="submit" value="Update color" id="btnCol" class="btn">
+    </form>
+    <!-- forma za unos poruke -->
+    <form id="formMessage">
+        <textarea placeholder="Your message..." id="inputMessage" cols="30"></textarea>
+        <input type="submit" value="Send" id="btnSend" class="btn">
+    </form>
+
+    <!-- forma za promenu korisnickog imena -->
+    <form id="formUsername">
+        <input type="text" placeholder="Update username" id="inputUsername">
+        <input type="submit" value="Update" id="btnUpdate" class="btn">
+    </form>
+    <div id="threeSeconds"> </div>
+    <div id="scrollDole"> </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBU6S27W9xe3elSF4BPrsusIYRC-j2eEbM",
+    authDomain: "itbootcamp-c4910.firebaseapp.com",
+    projectId: "itbootcamp-c4910",
+    storageBucket: "itbootcamp-c4910.appspot.com",
+    messagingSenderId: "736167011289",
+    appId: "1:736167011289:web:049a06480baf8449c8afc8",
+    measurementId: "G-M9PXSYGL3G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  let db = firebase.firestore();
+</script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

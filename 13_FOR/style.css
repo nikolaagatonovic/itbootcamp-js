@@ -1,0 +1,19 @@
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.boja1 {
+    background-color: salmon;
+}
+
+.boja2 {
+    background-color: olivedrab;
+}
+
+.ljubicasti {
+    color: purple;
+}

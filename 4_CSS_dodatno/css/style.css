@@ -1,0 +1,58 @@
+.crveniParagraf {
+    color: red;
+}
+
+.desnoPoravnanje {
+    text-align: right;
+}
+
+/* Vise elemenata ili klasa sa istim osobinama<p></p>*/
+h3, h4 {
+    color: orange;
+    text-align: center;
+}
+
+.drugi, #treci {
+    background-color: yellow
+}
+/* Prioritet: selektor < klasa < id.*/
+li{
+    color: green;
+}
+
+.kurs {
+    color: blue;
+}
+
+#java {
+    color: brown;
+}
+
+li {
+    color: grey; /*Poslednji dodati stil se primenjuje ali samo nad slabijim ili jednakim sebi*/
+}
+
+/*selektovanje svih paragrafa koji su poromci div elementa*/
+div p {
+    text-decoration: underline;
+}
+
+div .podParagraf {
+    font-weight: bold;
+}
+
+/* Ciljano seektovanje elemenata */
+ol li:nth-child(3){
+    font-style: italic;
+}
+
+ol li:nth-child(odd){
+    color: hotpink;
+}
+
+ol li:nth-child(even){
+    color: darkmagenta;
+}
+
+/* ol li:nth-child(2n);  */
+/*  */

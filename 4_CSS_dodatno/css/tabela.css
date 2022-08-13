@@ -1,0 +1,18 @@
+.treciRed {
+    background-color: yellow;
+}
+
+table td, th {
+    border: 1px solid black;
+    
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+.drugaTabela
+    th:nth-child(3), .drugaTabela tr td:nth-child(3) {
+        background-color: yellow;
+    }

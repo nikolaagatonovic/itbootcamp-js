@@ -1,0 +1,52 @@
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+/* Navigacija */
+nav ul {
+    list-style-type: none;
+    background-color: darkturquoise;
+}
+
+nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid aqua;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: aqua;
+}
+
+/* Aside */
+aside, .gradient {
+    background-image: linear-gradient(darkturquoise, white);
+}
+
+/* Images */
+section img {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    background-color: aqua;
+    padding: 5px 0px;
+    text-align: center;
+
+    /* fiksiranje za donju poziciju */
+    position: fixed;
+    bottom: 0;
+}
+/* podignemo poslednji red za visinu footera jer je footer fiksiran uz donju ivicu */
+.gradient {
+    margin-bottom: 30px;
+}

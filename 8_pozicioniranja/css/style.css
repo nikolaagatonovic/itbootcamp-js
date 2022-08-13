@@ -1,0 +1,43 @@
+#div1 {
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+    position: relative; /*relativno u odnosu na poziciju koju trenutno ima*/
+    top: 40px;
+    left: 15%;
+}
+
+.news {
+    background-color: cadetblue;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 40px;
+}
+
+.news img {
+    width: 40%;
+    position: absolute; /*absolutno u odnosu na prvog pretka koji ima tu poziciju*/
+    top: 40px;
+    left: 20px;
+}
+
+.news h5 {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer {
+    background-color: coral;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+}

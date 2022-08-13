@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-size: 22px;
+}
+h1{
+    margin-left: 10px;
+    color: dodgerblue;
+}
+ul{
+    padding-inline-start: 0px;
+}
+
+
+li:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.mojaLista li {
+    list-style: none;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    width: 270px;
+}
+button{
+    font-size: 22px;
+    width: 270px;
+    margin: 10px;
+    padding: 10px;
+    background-color: dodgerblue;
+}
+button:hover{
+    background-color: lightblue;
+}
+#unesi{
+    font-size: 22px;
+    width: 270px;
+}
+input{
+    margin: 10px;
+}

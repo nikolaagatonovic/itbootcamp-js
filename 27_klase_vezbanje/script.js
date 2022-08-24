@@ -157,4 +157,3 @@ const ljudi = (brLjudi, busArr) => brLjudi <= ukupnoSedista(busArr);
 
 console.log(ljudi(241, nizAutobusa));
 console.log(ljudi(170, nizAutobusa));
-`${}`

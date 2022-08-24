@@ -5,5 +5,5 @@ let generateImage = (source) => {
     return img
 }
 
-export {generateImage }
+export default generateImage
   
